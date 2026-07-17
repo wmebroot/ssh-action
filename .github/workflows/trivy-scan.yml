@@ -15,7 +15,7 @@ jobs:
   trivy-scan:
     name: Trivy Security Scan
     runs-on: ubuntu-latest
-    permissions:
+    permissions: write
       contents: read
       security-events: write
       actions: read
